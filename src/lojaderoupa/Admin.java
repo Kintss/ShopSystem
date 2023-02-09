@@ -668,7 +668,6 @@ public class Admin extends javax.swing.JFrame {
         }catch(Exception e){
             statusLb3.setText("Erro!");
         }    
-        saveTabela(produtoTabela,"src\\Sistema\\Data.csv");
     }//GEN-LAST:event_salvaTabelaBtnActionPerformed
 
     private void fecharBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fecharBtnActionPerformed

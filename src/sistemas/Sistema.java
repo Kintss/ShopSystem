@@ -82,6 +82,7 @@ public abstract class Sistema implements Serializable{
                 String usuarioDado = coluna[0];
                 String senhaDado = coluna[1];
                 
+                
                 if (usuarioDado.equals(loginUsuario.getText()) && senhaDado.equals(loginSenha.getText())) {                  
                     if (loginUsuario.getText().equals("admin") && loginSenha.getText().equals("admin")) {
                         return 1;

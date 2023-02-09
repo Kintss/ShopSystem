@@ -524,7 +524,7 @@ public class Loja extends javax.swing.JFrame {
         if(pesquisaNome != null){
             for (int i = 0; i < lojaTabela.getRowCount(); i++){
                 if(pesquisaNome.equals(lojaTabela.getValueAt(i,1))){;
-                    lojaTabela.addRowSelectionInterval(i,1);
+                    lojaTabela.addRowSelectionInterval(i,i);
                 }
             }
         }
